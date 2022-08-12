@@ -1,0 +1,5 @@
+
+.car {
+    display: grid;
+    grid-area: 150px 150px;
+}
