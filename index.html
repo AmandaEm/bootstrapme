@@ -2,9 +2,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Art Galary</title>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Link to bootstrap here -->
+ <!-- Link to bootstrap here -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+		<title>Art Galary</title>
 
 	</head>
 
@@ -20,30 +24,62 @@
 	<body>
 
 		<header><h1>Beauty of Life Art Galary</h1></header>
+			<nav>
+				<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+					<a class="navbar-brand" href="#">Navigation</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					  <span class="navbar-toggler-icon"></span>
+					</button>
+				  
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					  <ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+						  <a id="cars" class="nav-link" href="#car">Old School Cars <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a id="flowers" class="nav-link" href="#flower">Rare Flowers <span class="sr-only">(current)</span></a>
+						  </li>
+						  <li class="nav-item active">
+							<a id="birds" class="nav-link" href="#bird">Exotic Birds <span class="sr-only">(current)</span></a>
+						  </li>
+						  <li class="nav-item active">
+							<a class="nav-link" href="#admit">Admission Prices <span class="sr-only">(current)</span></a>
+						  </li>
+						  <li class="nav-item active">
+							<a class="nav-link" href="#submit">Submission Info <span class="sr-only">(current)</span></a>
+						  </li>
+					  </ul>
+					  <form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					  </form>
+					</div>
+				  </nav>
+			</nav>
 
 			<main>
 
-				<section><h2>Old School Car</h2></section>
+				<section id="car" ><h2>Old School Car</h2></section>
 				<img src="https://images.unsplash.com/photo-1532751203793-812308a10d8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b2xkJTIwY2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
                 <img src="https://images.unsplash.com/photo-1563831816793-3d32d7cc07d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8b2xkJTIwY2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
                 <img src="https://images.unsplash.com/photo-1593544340816-93d84a106415?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1195&q=80">
                 <img src="https://images.unsplash.com/photo-1581281664725-7d97d24d48b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8b2xkJTIwY2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
 
 
-				<section><h2>Rare Flowers</h2></section>
+				<section id="flower" ><h2>Rare Flowers</h2></section>
 				<img src="https://images.unsplash.com/photo-1528857901852-ba9ffa60559c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZXhvdGljJTIwZmxvd2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
                 <img src="https://images.unsplash.com/photo-1508128655192-0270cf7f0a11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZXhvdGljJTIwZmxvd2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
                 <img src="https://images.unsplash.com/photo-1527017895487-3ac53c0f03fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZXhvdGljJTIwZmxvd2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
 
 
-				<section><h2>Exotic Birds</h2></section>
+				<section id="bird" ><h2>Exotic Birds</h2></section>
 				<img src="https://images.unsplash.com/photo-1534765372525-6c48a6524046?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZXhvdGljJTIwYmlyZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
                 <img src="https://images.unsplash.com/photo-1534631717226-c4f264e50e1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZXhvdGljJTIwYmlyZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
                 <img src="https://images.unsplash.com/photo-1526401415661-5a755bef0246?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZXhvdGljJTIwYmlyZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
                 <img src="https://images.unsplash.com/photo-1527919964707-ad5dd075c527?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGV4b3RpYyUyMGJpcmRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
 
 
-					<table>
+					<table id="admit" >
 						<h3>Admission Prices</h3>
     					<thead>
     						<tr>
@@ -66,7 +102,7 @@
   					</table>
 <br>
 <br>
-  					<form>
+  					<form id="submit" >
   						<h3>Subscribe For More Information:</h3>
   						<label for="name">Name:</label><br>
   							<input type="text" id="name" name="name"><br>
